@@ -1,0 +1,123 @@
+/* ----------- GLOBAL ---------- */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------- NAVBAR ---------- */
+.navbar {
+    background: #2d3436;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* ----------- CONTAINER ---------- */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* ----------- FORM ---------- */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #0984e3;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #74b9ff;
+}
+
+/* class for the form container (pages use class="form") */
+.form {
+    width: 420px;
+    margin: 20px auto;
+}
+
+/* ----------- TABLE ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background: #0984e3;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+/* ----------- ACTION BUTTONS ---------- */
+.btn {
+    padding: 6px 12px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background: #00b894;
+}
+
+.btn-edit:hover {
+    background: #55efc4;
+}
+
+.btn-delete {
+    background: #d63031;
+}
+
+.btn-delete:hover {
+    background: #ff7675;
+}
